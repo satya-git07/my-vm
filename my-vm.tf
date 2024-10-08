@@ -12,7 +12,7 @@ provider "google" {
 }
 
 resource "google_compute_instance" "centos_vm" {
-  name         = "my-vm1"
+  name         = "my-vm2"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
 
