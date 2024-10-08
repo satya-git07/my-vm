@@ -1,14 +1,7 @@
-variable "region"{
-  description="this is the region of the vm"
-  type= string 
-  default="central1"
-
-}
-
 
 provider "google" {
   project = "eighth-upgrade-436909-e3"
-  region  = var.region
+  region  = "us-central1"
 }
 
 resource "google_compute_instance" "centos_vm" {
