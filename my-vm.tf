@@ -1,6 +1,6 @@
 
 provider "google" {
-  project = "eighth-upgrade-436909-e3"
+  project = "satyanarayana"
   region  = "us-central1"
 }
 
