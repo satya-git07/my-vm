@@ -20,3 +20,9 @@ resource "google_compute_instance" "centos_vm" {
     access_config {}
   }
 }
+terraform {
+  backend "gcs" {
+    bucket  = "sang-jin-woo"  # Replace with your GCS bucket name
+    prefix  = "terraform/state"         # Folder inside the bucket
+  }
+}
