@@ -1,6 +1,6 @@
 
 provider "google" {
-  project = "satyanarayana"
+  project = "lyrical-bus-452711-c5"
   region  = "us-central1"
 }
 
